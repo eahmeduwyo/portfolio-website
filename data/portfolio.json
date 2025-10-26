@@ -1,0 +1,28 @@
+{
+  "research_work": {
+    "title": "Undergraduate Research Work",
+    "duration": "February 2023 – March 2024",
+    "summary": "Smoke propagation and evacuation scenario of a virtual model analyzed with PyroSim and Pathfinder to mitigate death rate as well as injury to the occupants based on a real building.",
+    "supervisor": "Md. Abu Safayet",
+    "thesis_title": "Development of a BIM-Based Fire Safety Simulation Framework and Evacuation Planning"
+  },
+  "publications": [
+    {
+      "title": "Determining the optimal window size and orientation of an academic building in subtropical climate",
+      "authors": ["Anzum, A.", "Rana, M.J.", "Ahmed, E.", "Rahman, S."],
+      "year": 2025,
+      "journal": "International Journal of Building Pathology and Adaptation",
+      "doi": "https://doi.org/10.1108/IJBPA-11-2024-0232"
+    },
+    {
+      "title": "Reducing False Alarms in Buildings with UAV-Based Fire Detection and Monitoring through a Cloud-Integrated Approach",
+      "authors": ["Ahmed, E.", "Bhattacharjee, A.", "Anzum, A."],
+      "conference": "8th International Conference on Engineering Research, Innovation and Education"
+    },
+    {
+      "title": "Automation in Construction Quality Control: Integrating Unmanned Aerial Vehicle (UAV), CNNs, and Photogrammetry for Structural Element Detection and Measurement Precision",
+      "authors": ["Bhattacharjee, A.", "Ahmed, E.", "Rana, M.J."],
+      "conference": "8th International Conference on Engineering Research, Innovation and Education"
+    }
+  ]
+}

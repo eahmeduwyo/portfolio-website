@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Estiak Ahmed</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    
+    <nav class="navbar">
+      <a href="index.html" class="logo">Estiak Ahmed</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research & Publications</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error-message" id="error-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message" id="error-email"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-message" id="error-message"></span>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Email Address:</strong> <a href="mailto:eahmed@uwyo.edu">eahmed@uwyo.edu</a></p>
+        <p><strong>University Location:</strong> EN 3084, University of Wyoming</p>
+        <p><strong>Office Hours:</strong> 11:00 AM to 12:00 PM (Friday)</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Estiak Ahmed. All rights reserved.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
